@@ -1,29 +1,145 @@
-ul {
-    list-style-type: none;
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.header {
 	
+	/*margin: 10px;*/
+	/*font-size: 2.5em;*/
+	/*font-size: 2.91246117975em;	*/
+	font-size: 1.8em;
+	color: #800000;
+	font-family: 'VT323', monospace; 
+	word-spacing: -3px;
+}
+.header h1 {
+	font-size: 1.61803398875em;	
+	/*float: left;*/
+	text-shadow: 2px 2px 1px #ff0000, -1px 0px 0px #d92626;
+	display: inline-block;
+	margin: 5px 5px 3px;
+	padding: 8px 5px 5px;
+}
+.header h2 {
+	font-size: 1.11246117975em;	
+	float: right;
+	text-shadow: 2px 2px 1px #ff0000;
+	display: inline-block;
+	margin: 28px 20px 3px;
+	padding: 0px 5px 0px;
+}
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.nav  {
+	/*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+	font-family: 'VT323', monospace; 
+	font-size: 1.8em;
+	word-spacing: -8px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     /*width: 200px;*/
 	overflow: hidden;
     background-color: #363030;
 }
-li {
+.nav li {
 	float: left;
 }
-
-li a {
-    display: block;
+.nav li.right {
+	float: right;
+}
+.nav li a {
+	
+    display: inline-block;
     color: #e6f3ff;
-    padding: 14px 16px;
+    padding: 8px 13px;
     text-decoration: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 /* Change the link color on hover */
-li a:hover:not(.active) {
-    background-color: #555;
+.nav li a:hover:not(.active) {
+    /*background-color: #555;*/
     color: #ff3333;
+	text-shadow: 2px 2px 5px red;
 }
-.active {
-    background-color: #990000;
+.nav li .active {
+	/*font-size: 1.1em;
+	padding: 7px 17px;*/
+	color: red;
+	background-color: #800000;
 	color: #ffe6e6;
+	text-shadow: 1px 1px 2px white;
+}
+
+.col {
+	padding: 10px;
+	float: left;
+	height: 900px;
+}
+
+.side {
+	width: 15%;
+}
+
+.mid {
+	width: 70%;
+	background: white;
+	padding: 10px 40px 10px;
+	
+	border-style: groove;
+}
+.mid h1 {
+	/*padding: 0px 0px 0px;*/
+}
+.mid .sect {
+	/*display: block;*/
+	padding: 0px 10px;
+	
+}
+.mid h2 {
+	
+}
+.mid p {
+	padding: 0px 5px;
+	/*margin: 10px;*/
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer {
+	background-color: #800000;
+    text-align: center;
+    padding: 2px;
+}
+body {
+	
+	/*background-size: cover;*/
+	background: black;
+	background-image: url("joke code bg2.png");
+	background-size: contain;
+	 background-position: right bottom;
+	background-repeat: no-repeat;
+	/*background: #330000; 
+	background: -webkit-linear-gradient(#330000, black); 
+	background: -o-linear-gradient(#330000, black); 
+	background: -moz-linear-gradient(#330000, black); 
+	background: linear-gradient(#330000, black); 
+	 background-repeat: repeat-x;*/
+	
 }

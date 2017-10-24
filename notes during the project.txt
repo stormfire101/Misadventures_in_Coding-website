@@ -1,0 +1,14 @@
+So learning html itself wasent that hard and neither was css so far.. at least of 9/28/2017 how ever at this point it is likely just going to be a question of
+running out and learning the things I will need for specific elemants for the website
+	this is similar yet rather different to how I took on the game from last year, if there was a feature I needed to add I focused on leanring the peices for that and slowly made my way through the language and environment
+as was always true the key to everything is finding recsourses to learn and work off of
+The interesting thing at this point is designing the look and graphics of the website in both ui theme structure and color choice
+	the brainstorming proccess I used for my current plan was rather simple
+		Ideas: know I could tell what the basic requirements for a site like this would be but I wanted to make the design interesting but was short on ideas so I turned to some of my favorite websites to see if there were any graphical elemants that might work with my project
+			the sites that came to mind were
+				Think Geek
+				Wait but Why
+				w3schools
+				destiny 2's site (why was it delayed till oct 24)
+			I then needed to decide which elemants I liked and decide whether it would fit with what my site is
+			 I decided on using the structure of w3schools which I had also seen in documentation for coding languages
