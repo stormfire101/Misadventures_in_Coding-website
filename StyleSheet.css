@@ -83,9 +83,10 @@ body {
 }
 
 .col {
-	padding: 10px;
+	/*padding: 10px;*/
 	float: left;
-	height: 900px;
+	min-height: 600px;
+	margin-bottom: 40px;
 }
 
 .side {
@@ -95,26 +96,35 @@ body {
 .mid {
 	width: 70%;
 	background: white;
-	padding: 10px 40px 10px;
+	padding: 0px 40px 0px;
 	
 	border-style: groove;
+	margin: 0px;
 }
-.mid h1 {
+.mid h1 {/*1.61803398875*/
 	/*padding: 0px 0px 0px;*/
+	font-weight: bold;
+	padding: 33.97871376375px 0px 0px;
+	font-size: 27.50657780875px;
+	/*margin: 0px;*/
 }
 .mid .sect {
-	/*display: block;*/
-	padding: 0px 10px;
+	/*display: block;18.337718539166666666666666666667*/
+	
+	padding: 0px 12.360679774997093675854341659917px;
 	
 }
 .mid h2 {
-	
+	padding: 0px 0px;
+	font-weight: 600;
+	font-size: 18.337718539166666666666666666667px;
 }
 .mid p {
-	padding: 0px 5px;
-	/*margin: 10px;*/
-	font-size: 16px;
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-weight: 700;*/
+	padding: 0px 12.360679774997093675854341659917px;
+	/*margin: 10px 0px;*/
+	font-size: 17px;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 }
 .row:after {
 	content: "";
@@ -128,18 +138,19 @@ body {
     padding: 2px;
 }
 body {
-	
+	/*min-height: 100%px;*/
+	 width: 100%;
+    height: auto;
 	/*background-size: cover;*/
 	background: black;
-	background-image: url("joke code bg2.png");
-	background-size: contain;
-	 background-position: right bottom;
+	background-image: url("joke code bg.png");
+	
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 10px, rgba(255,0,0,0)), url("joke code bg.png");
+	/*background-size: 100% 100%;*/
+	background-size: cover;
+	background-position: left top, right bottom;
+	background-attachment: scroll, fixed;
 	background-repeat: no-repeat;
-	/*background: #330000; 
-	background: -webkit-linear-gradient(#330000, black); 
-	background: -o-linear-gradient(#330000, black); 
-	background: -moz-linear-gradient(#330000, black); 
-	background: linear-gradient(#330000, black); 
-	 background-repeat: repeat-x;*/
+	
 	
 }
